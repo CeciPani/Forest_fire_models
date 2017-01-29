@@ -37,7 +37,11 @@ To create the GIF and to perform the analysis you need to install two python lib
  $ pip install -U powerlaw
  ~~~~
 
+## Outputs
 
+* Two GIF showing the model time evolution
+* One csv file containing simulation results
+* One log-log plot of cluster area vs. frequency of cluster area (exponentially truncated power law)
 
 
 
