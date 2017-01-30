@@ -9,8 +9,8 @@ This project aim to reproduce the results and the analysis done by Bak et al. an
 
 This project contains two Jupyter Notebooks for two distinct forest fire models:
 
-* **Forest_fire_model_BAK.ipynb** which contains python code to run simulations of the forest-fire model proposed by P.Bak et al. containing a tree growth rate p and fire spreading to nearest neighbors ("A forest-fire model and some thoughts on turbulence." Phys. Lett. A 147, 297–300).
-* **Forest_Fire_Model_DROSSEL.ipynb** which contains python code to run simulations of the forest-fire model proposed by B.Drossel, and F.Schwabl with a lightning probability f ("Self-organized critical forest-fire model." Phys. Rev. Lett. 69, 1629–1632).
+* **Forest_fire_model_BAK.ipynb** which contains python code to run simulations of the forest-fire model proposed by P.Bak et al. containing a tree growth rate p and fire spreading to nearest neighbors [("A forest-fire model and some thoughts on turbulence." Phys. Lett. A 147, 297–300)][4].
+* **Forest_Fire_Model_DROSSEL.ipynb** which contains python code to run simulations of the forest-fire model proposed by B.Drossel, and F.Schwabl with a lightning probability f [("Self-organized critical forest-fire model." Phys. Rev. Lett. 69, 1629–1632)][3].
 
 Once you run the cell code two directories are created, these will contain all the images created in the simulations. These images are used to create a GIF showing the time evolution of the forest.
 
@@ -49,3 +49,5 @@ To create the GIF and to perform the analysis you need to install two python lib
 
 [1]: https://pypi.python.org/pypi/images2gif "images2gif"
 [2]: http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0085777 "powerlaw"
+[3]: http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.69.1629
+[4]: http://162.105.160.8/sys_bio_lib/linux/pdf/1990-21.pdf
