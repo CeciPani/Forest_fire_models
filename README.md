@@ -33,7 +33,7 @@ To create the GIF and to perform the analysis you need to install two python lib
  ~~~~
 * [powerlaw][2]
 
-  ~~~~
+ ~~~~
  $ pip install -U powerlaw
  ~~~~
 
